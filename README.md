@@ -1,0 +1,1 @@
+Course project for the Sustainability in Computer and Data Sciences course in University of Helsinki
