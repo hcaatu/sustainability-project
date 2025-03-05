@@ -1,6 +1,8 @@
 ## Energy efficiency of big data processing
 
-This reposiory consists of the Course Project for the Sustainability in Computer and Data Sciences course in University of Helsinki
+This reposiory consists of the code for Course Project for the Sustainability in Computer and Data Sciences course in University of Helsinki
+
+In the project, we're using Codecarbon, an open-source tool to measure CO2 emissions for different sorting algorithms. 
 
 ### Installation and usage
 
