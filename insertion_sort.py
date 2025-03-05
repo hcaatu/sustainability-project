@@ -3,12 +3,10 @@ from random import randint
 from codecarbon import track_emissions
 
 def insertionSort(arr):
-    n = len(arr)  # Get the length of the array
-     
-    if n <= 1:
-        return  # If the array has 0 or 1 element, it is already sorted, so return
+    if len(arr) <= 1:
+        return  # trivial case
 
-    for i in range(1, n):  # Iterate over the array starting from the second element
+    for i in range(1, len(arr)):  # Iterate over the array starting from the second element
         key = arr[i]  # Store the current element as the key to be inserted in the right position
         j = i-1
         while j >= 0 and key < arr[j]:  # Move elements greater than key one position ahead
